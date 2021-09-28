@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static com.hrizantemovich.TestData.*;
 
 
-public class PractiseFormTest extends TasteBase{
+public class PractiseFormTest extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
     @Test
     void fillFormTest(){
